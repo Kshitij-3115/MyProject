@@ -1,10 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>webtechnology</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background-color: rgb(250, 250, 239);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .menu_bar1 {
+            background-color: rgb(202, 209, 205);
+            text-align: center;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        .menu_bar1 h1 {
+            display: inline-flex;
+            float: left;
+            color: rgb(122, 48, 48);
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .menu_bar1 h2 {
+            display: inline;
+            float: right;
+            padding: 8px;
+            background-color: rgb(120, 197, 124);
+            margin: 1px;
+            border-radius: 4px;
+            color: aliceblue;
+        }
+        
+        .menu_bar1 ul {
+            display: inline-block;
+            list-style-type: none;
+            color: white;
+        }
+        
+        .menu_bar1 ul li {
+            text-align: center;
+            float: right;
+            color: rgb(253, 250, 247);
+            padding: 10px;
+            background-color: rgb(64, 156, 110);
+            border: 0px solid white;
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .menu_bar1 ul li:hover {
+            background-color: rgb(78, 207, 78);
+        }
+        
+        .paragraph {
+            font-size: 20px;
+            text-indent: 80px;
+            color: rgb(143, 110, 110);
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        h3 {
+            padding: 10px;
+            font-weight: bold;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .lists1 {
+            text-align: center;
+            padding: 10px;
+            background-color: antiquewhite;
+            width: 30%;
+            margin-left: 400px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            color: black;
+        }
+        
+        .lists1 li {
+            text-align: center;
+            display: block;
+            padding: 5px;
+            margin: 4px;
+            background-color: rgb(235, 213, 213);
+            font-weight: bold;
+            color: brown;
+        }
+        
+        .lists1 li:hover {
+            background-color: rgb(189, 255, 205);
+        }
+        
+        .lists1 a {
+            text-decoration: none;
+            color: rgb(121, 98, 98);
+        }
+        
+        .bottom {
+            font-size: 30px;
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            margin: 30px;
+        }
+        
+        .imagelinks {
+            display: inline-flex;
+            background-color: rgb(236, 215, 188);
+            padding: 10px;
+            margin: 10px;
+            border: 0px solid white;
+            border-radius: 13px;
+        }
+        
+        .linkimg {
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(164, 224, 204);
+        }
+        
+        .bold2 {
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
 </head>
+
 <body>
-<h1>Hello Web Technology 1.0.1 </h1>
+    <div class="menu_bar1">
+        <h1>HTML Lists</h1>
+        <ul>
+
+            <li>About Me</li>
+            <li> List Types</li>
+        </ul>
+        <h2>Web Technology Lab, NIT Patna</h2>
+    </div>
+    <h3>A Short introduction to HTML lists</h3>
+    <p class="paragraph">In general the list is nothing but a group of similar data or information. HTML also allows us to define different types of lists in web pages. In HTML we have 3 different types of lists:</p>
+
+
+    <ul class="lists1">
+
+        <a href="ulist1.html">
+            <li type="disc"> Unordered list</li>
+        </a>
+        <a href="olist1.html">
+            <li type="disc"> Ordered list </li>
+        </a>
+        <a href="dislist1.htm">
+            <li type="disc"> Discription list</li>
+        </a>
+    </ul>
+    <div class="imagelinks">
+        <div>
+            <b class="bold2">Unordered list</b>
+            <a href="ulist1.html"> <img class="linkimg" src="code1.png" alt="ul"></a>
+
+        </div>
+        <div>
+            <b class="bold2">Ordered list</b>
+            <a href="olist1.html"><img class="linkimg" src="code2.png" alt="ol"></a>
+        </div>
+        <div>
+            <b class="bold2">Discription list</b>
+            <a href="dislist1.htm"> <img class="linkimg" src="code3.png" alt="dl"></a>
+        </div>
+    </div>
+
+
+    <p class="paragraph">
+        We can use CSS to add padding, background-color, color, margin, border with these lists to make them attractive. to learn more about each list type click above options or Click on corresponding images and enjoy learning.
+
+    </p>
+    <p class="bottom">BEST OF LUCK !</p>
 </body>
 
 </html>

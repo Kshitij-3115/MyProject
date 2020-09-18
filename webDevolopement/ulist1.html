@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unordered list</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background-color: rgb(250, 250, 239);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .menu_bar1 {
+            background-color: rgb(202, 209, 205);
+            text-align: center;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        .menu_bar1 h1 {
+            display: inline-flex;
+            float: left;
+            color: rgb(122, 48, 48);
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .menu_bar1 h2 {
+            display: inline;
+            float: right;
+            padding: 8px;
+            background-color: rgb(120, 197, 124);
+            margin: 1px;
+            border-radius: 4px;
+            color: aliceblue;
+        }
+        
+        .menu_bar1 ul {
+            display: inline-block;
+            list-style-type: none;
+            color: white;
+        }
+        
+        .menu_bar1 ul li {
+            text-align: center;
+            float: right;
+            color: rgb(253, 250, 247);
+            padding: 10px;
+            background-color: rgb(64, 156, 110);
+            border: 0px solid white;
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .menu_bar1 ul li:hover {
+            background-color: rgb(78, 207, 78);
+        }
+        
+        .head1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 5px;
+            margin: 10px;
+            color: rgb(44, 150, 132);
+        }
+        
+        .head2 {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .paragraph1 {
+            text-indent: 60px;
+            font-size: 20px;
+            color: black;
+            padding: 5px;
+            margin: 5px 30px 5px 50px;
+        }
+        
+        .codepad {
+            padding: 20px;
+            margin: 10px;
+            display: inline-flex;
+            background-color: rgb(247, 245, 242);
+            width: 60%;
+            margin-left: 50px;
+        }
+        
+        .codepad img {
+            padding: 10px;
+            margin: 7px;
+            background-color: rgb(76, 201, 159);
+            float: right;
+        }
+        
+        .codepad li {
+            text-align: center;
+            margin-right: 80px;
+            margin-left: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 7px;
+            color: rgb(34, 165, 110);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu_bar1">
+        <h1>HTML Lists</h1>
+        <ul>
+
+            <li>About Me</li>
+            <li> List Types</li>
+        </ul>
+        <h2>Web Technology Lab, NIT Patna</h2>
+    </div>
+
+    <h3 class="head1">Unordered list</h3>
+    <h4 class="head2">What is unordered list?</h4>
+    <p class="paragraph1">An unordered list is a list in which the order of data is not necessary. This list is especially used to list up the random data. For example likes of a person or list of food available in hotel etc. now lets look how to create this list using HTML.</p>
+    <h4 class="head2">Creating HTML unordered list:</h4>
+    <p class="paragraph1">To Create a list we have &lt;ul&gt; tag. And to add the elements in the lists there is &lt;li&gt; tag. In this &lt;li&gt; tag add elements. Add anather &lt;li&gt; to add anather element to the list and carry on the same process as you want.</p>
+    <p class="paragraph1">we can also add CSS to this list to make it more attractive. Following is a example of unordered list which lists up the different sports name.
+    </p>
+    <div class="codepad">
+        <div>
+            <!-- unordered list -->
+            <ul>
+                <li type="disc">Cricket</li>
+                <li type="disc">Football</li>
+                <li type="disc">Hollyball</li>
+                <li type="disc">Hocky</li>
+                <li type="disc">Kabaddi</li>
+            </ul>
+        </div>
+
+        <img id="img1" src="code1.png" alt="codefile">
+    </div>
+
+</body>
+
+</html>
