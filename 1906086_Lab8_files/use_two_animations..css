@@ -1,0 +1,104 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 229, 229);
+}
+
+.cont1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#head {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(216, 158, 158);
+    width: 100%;
+    margin-left: 0px;
+    padding: 10 px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(110, 71, 71);
+    background-color: rgb(243, 227, 227);
+}
+
+#head:hover {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    height: 100px;
+    color: rgb(138, 66, 120);
+    width: 100%;
+    margin-left: 0px;
+    padding: 10 px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(110, 71, 71);
+    background-color: rgb(186, 231, 205);
+}
+
+
+/* h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(158, 130, 130);
+    width: 100%;
+    margin-left: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(214, 182, 182);
+    background-color: rgb(235, 219, 219);
+}
+
+h4:hover {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(85, 73, 73);
+    width: 100%;
+    margin-left: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(214, 182, 182);
+    background-color: rgb(175, 235, 194);
+} */
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(184, 118, 118);
+    width: 50%;
+    margin-left: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(247, 219, 219);
+    background-color: rgb(240, 233, 233);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid rgb(228, 184, 184);
+    border-radius: 5px;
+    background-color: rgb(183, 235, 181);
+    box-shadow: 2px 2px 2px rgb(202, 253, 202);
+    transition: width 2s, height 2s;
+    width: 400px;
+    height: auto;
+}
+
+img:hover {
+    background-color: rgb(241, 208, 195);
+    transition: all 2s;
+    box-shadow: 2px 2px 2px rgb(228, 231, 228);
+    transform: rotate3d(2, -1, -1, -0.2turn);
+    width: 200px;
+    height: 200px;
+}
