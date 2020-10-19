@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_Us_skelaton</title>
+
+    <!-- this is to include css -->
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- this is to include jquery library: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js ">
+    </script>
+    <!-- this is to include popper.js: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js ">
+    </script>
+    <!-- this is to include latest compiled javascript : -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js ">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="login_page_in.css"> -->
+
+    <!-- this is style to style the navigation bar -->
+    <style>
+        header {
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+        }
+        
+        .navbar {
+            padding: 10px 0;
+        }
+        
+        .navbar-brand {
+            font-size: 60px;
+            font-weight: 500;
+            text-shadow: -1px 0 rgb(247, 238, 238), 0 1px rgb(250, 243, 243), 1px 0 rgb(247, 240, 240), 0 -1px rgb(238, 230, 230);
+        }
+        
+        .navbar-light .navbar-nav .nav-item.active .nav-link {
+            background: #9797d3;
+            ;
+            color: rgb(248, 250, 252);
+        }
+        
+        .navbar-light .navbar-nav .nav-item .nav-link:hover {
+            background: #9797d3;
+            color: white;
+        }
+        
+        .navbar-light .navbar-nav .nav-item .nav-link {
+            color: #f7f7fc;
+            padding: 5px 20px;
+            margin-left: 3px;
+            border-radius: 5px;
+            border: 2px solid rgb(102, 51, 243);
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(171, 135, 206);
+        }
+        
+        .nav-link .nav-item {
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 90%;
+        }
+        
+        .c-wrapper {
+            width: 50%;
+            /* for example */
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //navigation bar is here -->
+    <header>
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light sticky ">
+                <a class="navbar-brand " href="# "><i class="fa fa-suitcase " aria-hidden="true " style="font-size: 50px ;color: rgb(130, 130, 255);padding: 15px; "></i>FileSuit</a>
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav ml-lg-auto ">
+                        <li class="nav-item active ">
+                            <a class="nav-link " href="page2_v2.html">Home <span class="sr-only ">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="aboutusslides (2).html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="guidepage.html">Guide</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Contact Us</a>
+                        </li>
+
+
+                        <!-- <li class="nav-item ">
+                            <a class="nav-link disabled " href="# ">Disabled</a>
+                        </li> -->
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+    <script>
+        window.onscroll = function() {
+            funsticky();
+        }
+        var navbar = document.getElementById("navbar ");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky ")
+            } else {
+                navbar.classList.remove("sticky ");
+            }
+        }
+    </script>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <div class="c-wrapper">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1527443195645-1133f7f28990?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/uploads/14135798609283698b7f3/a1364128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

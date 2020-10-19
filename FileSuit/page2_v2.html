@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2_v2</title>
+    <!-- this is to include css -->
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- this is to include jquery library: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js ">
+    </script>
+    <!-- this is to include popper.js: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js ">
+    </script>
+    <!-- this is to include latest compiled javascript : -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js ">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login_page_in.css">
+
+    <style>
+        header {
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+        }
+        
+        .navbar {
+            padding: 10px 0;
+        }
+        
+        .navbar-brand {
+            font-size: 60px;
+            font-weight: 500;
+            text-shadow: -1px 0 rgb(247, 238, 238), 0 1px rgb(250, 243, 243), 1px 0 rgb(247, 240, 240), 0 -1px rgb(238, 230, 230);
+        }
+        
+        .navbar-light .navbar-nav .nav-item.active .nav-link {
+            background: #9797d3;
+            ;
+            color: rgb(248, 250, 252);
+        }
+        
+        .navbar-light .navbar-nav .nav-item .nav-link:hover {
+            background: #9797d3;
+            color: white;
+        }
+        
+        .navbar-light .navbar-nav .nav-item .nav-link {
+            color: #f7f7fc;
+            padding: 5px 20px;
+            margin-left: 3px;
+            border-radius: 5px;
+            border: 2px solid rgb(102, 51, 243);
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(171, 135, 206);
+        }
+        
+        .nav-link .nav-item {
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        
+        .banner1 {
+            position: relative;
+            /* background: url("https://images.unsplash.com/photo-1526280524276-51b1c8a46321?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE0MDk2M30&auto=format&fit=crop&w=500&q=60"); */
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            padding: 250px 0 200px;
+            background-image: linear-gradient(90deg, #fafcf9, hsl(274, 50%, 89%));
+        }
+        
+        .banner1 h1 {
+            font-size: 40px;
+            color: rgb(99, 99, 247);
+            font-weight: 600;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            text-shadow: 3px 3px 3px rgb(187, 200, 228);
+        }
+        
+        .banner1 h2 {
+            font-size: 30px;
+            color: rgb(154, 155, 236);
+            font-weight: 400;
+            margin: 0px;
+            padding-top: 7px;
+            text-align: center;
+            text-shadow: 3px 5px 5px rgb(183, 196, 230);
+        }
+        
+        .banner1 h3 {
+            font-size: 25px;
+            color: rgb(107, 71, 136);
+            font-weight: 500;
+            margin: 0px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        
+        .banner1 .container .col-sm-6 btn {
+            font-size: 20px;
+            font-weight: 700;
+            border: 2px solid rgb(205, 172, 233);
+            margin-left: 220px;
+            margin-top: 10px;
+        }
+        
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 90%;
+        }
+        /* popped up login window */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light sticky ">
+                <a class="navbar-brand " href="# "><i class="fa fa-suitcase " aria-hidden="true " style="font-size: 50px ;color: rgb(130, 130, 255);padding: 15px; "></i>FileSuit</a>
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav ml-lg-auto ">
+                        <li class="nav-item active ">
+                            <a class="nav-link " href="page2_v2.html">Home <span class="sr-only ">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="aboutusslides (2).html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="guidepage.html">Guide</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Contact Us</a>
+                        </li>
+
+
+                        <!-- <li class="nav-item ">
+                            <a class="nav-link disabled " href="# ">Disabled</a>
+                        </li> -->
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner1 ">
+        <div class="container " style="display:inline-flex; ">
+            <div class="row ">
+                <div class="col-sm-6 ">
+                    <h1>Manage Your Files with FileSuit</h1>
+                    <h2>Anywhere & Anytime</h2>
+                    <h3>FileSuit helps you to organize your files with the help of Google Drive in shorter time </h3>
+                </div>
+
+                <div class="col-sm-6 " style="border: 3px solid rgb(49, 36, 224); border-radius: 10px; padding-top: 20px; padding-bottom:30px ; ">
+                    <h3>Please login to your account</h3>
+                    <button class="btn btn-outline-success " style="border: 2px solid rgb(63, 46, 216); border-radius: 7px; font-size: 20px;" onclick="document.getElementById('id01').style.display='block'" style="border-radius: 10px; ">Login</button>
+                    <h3>Dont have an account?</h3>
+                    <button class="btn btn-outline-primary " onclick="document.getElementById('id02').style.display='block'" style="border: 2px solid rgb(140, 49, 224); border-radius: 7px; font-size: 20px;">Sign Up</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+                <h1>Login</h1>
+                <p>Please fill in this form to login to your account.</p>
+                <hr>
+                <label for="uname"><b>Username</b></label>
+                <input class="label1" type="text" placeholder="Enter Username" name="uname" required>
+                <!-- <label for="Mailid"><b>Mail id</b></label>
+                <input type="text" placeholder="Enter Mail id" name="Mailid" required> -->
+                <label for="psw"><b>Password</b></label>
+                <input class="label1" type="password" placeholder="Enter Password" name="psw" required> >
+
+                <div id="buttons" style="display: inline-flex;">
+                    <button type="submit">Login</button>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="id02" class="modal">
+        <form class="modal-content animate" action="/action_page.php" style="border:1px solid #ccc; width: 400px;height: auto;">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Create a free account here</p>
+                <hr>
+
+                <label for="email"><b>User Name</b></label>
+                <input type="text" placeholder="Enter Username" name="email" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+
+
+                <p>Signing up your are agree to our <a href="#" style="color:rgb(184, 211, 252)">Terms & Privacy policy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" onclick="document.getElementById('id02').style.display='none'" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script>
+        window.onscroll = function() {
+            funsticky();
+        }
+        var navbar = document.getElementById("navbar ");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky ")
+            } else {
+                navbar.classList.remove("sticky ");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
